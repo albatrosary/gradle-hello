@@ -31,6 +31,8 @@ dependencies {
 mainClassName = '[package][Class]'
 ```
 
+### init
+
 ```
 gradle init --type java-application
 # gradle init --type ＜TYPE＞
@@ -42,4 +44,9 @@ gradle init --type java-application
 # * 'java-library'
 # * 'pom'
 # * 'scala-library'
+```
+
+### run 
+```
+./gradlew clean build run
 ```
